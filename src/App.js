@@ -21,7 +21,6 @@ function App() {
 
   const toggleReminder = (toggledTask) => {
     const newTask = {...toggledTask, reminder: !toggledTask.reminder}
-    console.log(newTask)
     const newTasks = tasks.map(task => task.id === toggledTask.id ? {...task, reminder: !toggledTask.reminder}: task )
     setTasks(newTasks)
     // const newTasks = tasks.filter(task => task.id === toggledTask.id ? {...task, reminder: !task.reminder} : task)
