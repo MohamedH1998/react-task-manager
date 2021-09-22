@@ -2,6 +2,10 @@
 
 This a React task tracker app that uses functional components, utilising props, state, hooks, and also works with an API.
 
+# Live Demo
+
+https://tasktrckr.netlify.app//
+
 
 ## Available Scripts
 
